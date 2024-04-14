@@ -4,8 +4,7 @@ import serial
 import threading
 import time
 
-# Configurar el puerto serial (ajustar el puerto según tu sistema)
-arduino_port = '/dev/ttyACM0'  # Reemplazar '/dev/ttyACM0' con tu puerto serial correcto
+arduino_port = '/dev/ttyACM0'  
 ser = serial.Serial(arduino_port, 9600)
 
 # Coordenadas de los nodos del árbol
